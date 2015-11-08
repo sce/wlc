@@ -48,4 +48,7 @@ die(const char *format, ...)
    exit(EXIT_FAILURE);
 }
 
+char* wlc_resource_text(struct wlc_resource *r);
+void wlc_resource_log(enum wlc_log_type type, struct wlc_resource *r, const char *fmt, ...);
+
 #endif
