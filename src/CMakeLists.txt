@@ -60,6 +60,7 @@ set(sources
    session/tty.c
    session/udev.c
    wlc.c
+   log.c
    xwayland/xwayland.c
    xwayland/xwm.c
    )
